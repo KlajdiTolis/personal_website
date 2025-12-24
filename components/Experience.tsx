@@ -2,6 +2,7 @@ import React from 'react';
 import { EXPERIENCES } from '../constants';
 import { Building2, Calendar, ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
+import ProjectCarousel from './ProjectCarousel';
 
 const Experience: React.FC = () => {
   return (
@@ -56,7 +57,7 @@ const Experience: React.FC = () => {
             </div>
 
             {/* Tech Stack Pills */}
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               {job.techStack?.map((tech) => (
                 <span 
                   key={tech} 
@@ -66,6 +67,11 @@ const Experience: React.FC = () => {
                 </span>
               ))}
             </div>
+
+            {/* Project Showcase Carousel */}
+            {job.projects && job.projects.length > 0 && (
+              <ProjectCarousel projects={job.projects} />
+            )}
           </motion.div>
         ))}
       </div>

@@ -1,3 +1,9 @@
+export interface Project {
+  title: string;
+  description: string;
+  image?: string;
+}
+
 export interface Experience {
   id: string;
   company: string;
@@ -6,6 +12,7 @@ export interface Experience {
   description: string[];
   techStack?: string[];
   url?: string;
+  projects?: Project[];
 }
 
 export interface SkillCategory {

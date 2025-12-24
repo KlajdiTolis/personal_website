@@ -21,8 +21,26 @@ export const EXPERIENCES: Experience[] = [
       "Collaborated with backend teams on PHP-based systems to optimize frontend architecture and ensure seamless integration.",
       "Managed tasks via Jira in an agile environment and utilized GitLab for source control and CI/CD pipelines."
     ],
-    techStack: ["React", "TypeScript", "Jira", "GitLab"],
-    url: "https://www.teamsystem.com/"
+    techStack: [
+      "React", 
+      "TypeScript", 
+      "React Context API", 
+      "Zustand", 
+      "Tailwind CSS", 
+      "React Hook Form", 
+      "Storybook", 
+      "React Query", 
+      "Jira", 
+      "GitLab"
+    ],
+    url: "https://www.teamsystem.com/",
+    projects: [
+      {
+        title: "Legacy Modernization",
+        description: "Migration of core business modules from jQuery to React/TypeScript.",
+        image: "https://play-lh.googleusercontent.com/cp8mL1EueqVMqkEt1FW49AQ1A7r5CbnnIk6_bQdEKf2AgswbswxRG7MXZrvX5RRcog"
+      }
+    ]
   },
   {
     id: "icharge",
@@ -36,8 +54,38 @@ export const EXPERIENCES: Experience[] = [
       "Optimized power distribution with load balancing algorithms and utilized MongoDB, Firebase, and Redis.",
       "Leveraged Google Cloud for scalable infrastructure and Cloudflare for security and CDN caching."
     ],
-    techStack: ["React", "Node.js", "Express", "Firebase", "GCP", "MongoDB", "Redis"],
-    url: "https://icharge.app/"
+    techStack: [
+      "React.js", 
+      "Next.js", 
+      "TypeScript", 
+      "Node.js", 
+      "Socket.io", 
+      "MongoDB", 
+      "Firebase RealTimeDB", 
+      "Redis", 
+      "GCP", 
+      "Docker", 
+      "Stripe",
+      "Cloudflare"
+    ],
+    url: "https://icharge.app/",
+    projects: [
+      {
+        title: "EV Driver Portal",
+        description: "Real-time charger discovery and payment gateway integration.",
+        image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        title: "Fleet Management",
+        description: "Admin panel for large scale EV fleet monitoring and load balancing.",
+        image: "https://cdn.prod.website-files.com/69078eea6f03503263d3efd5/690b2deeb9bff902eb6a1869_relume-522309.png"
+      },
+      {
+        title: "Real-time Monitoring",
+        description: "WebSocket-driven dashboard for live charger status updates.",
+        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
   },
   {
     id: "magoware",
@@ -46,12 +94,30 @@ export const EXPERIENCES: Experience[] = [
     period: "June 2021 – May 2023",
     description: [
       "Contributed to the development of IPTV and OTT solutions with a strong focus on frontend technologies.",
-      "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).",
+      "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).", 
       "Collaborated with backend teams using Node.js and NestJS framework.",
       "Gained experience with infrastructure technologies like Redis, Firebase, and Google Cloud Platform (GCP)."
     ],
-    techStack: ["React", "MUI", "IPTV/OTT", "NestJS"],
-    url: "https://www.magoware.com/"
+    techStack: [
+      "React", 
+      "MUI", 
+      "IPTV/OTT", 
+      "NestJS", 
+      "React Context API", 
+      "Zustand", 
+      "Tailwind CSS", 
+      "React Hook Form", 
+      "Storybook", 
+      "React Query"
+    ],
+    url: "https://www.magoware.tv/",
+    projects: [
+      {
+        title: "OTT Web Player",
+        description: "High-performance video player interface for web browsers.",
+        image: "https://static.wixstatic.com/media/e18fa1_34e98278eeea4420a0d6fa4be496ed9a~mv2.png/v1/fill/w_587,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/home4.png"
+      }
+    ]
   }
 ];
 
