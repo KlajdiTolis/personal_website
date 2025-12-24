@@ -22,12 +22,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className={`fixed top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-md border-b border-zinc-800' : 'bg-transparent'}`}>
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
-        <div onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+        <div onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className="cursor-pointer">
           <Logo className="h-7" />
         </div>
         
         <div className="hidden md:flex gap-8 text-sm font-medium text-zinc-400">
-          <button onClick={() => scrollTo('experience')} className="hover:text-white transition-colors">Experience</button>
+          <button onClick={() => scrollTo('experience')} className="hover:text-white transition-colors">Projects</button>
           <button onClick={() => scrollTo('skills')} className="hover:text-white transition-colors">Skills</button>
           <button onClick={() => scrollTo('education')} className="hover:text-white transition-colors">Education</button>
         </div>

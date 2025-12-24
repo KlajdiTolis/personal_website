@@ -14,32 +14,37 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "teamsystem",
     company: "TeamSystem",
-    role: "Frontend Developer (React/TypeScript)",
-    period: "May 2023 – Present",
+    role: "Frontend Developer",
+    period: "",
     description: [
-      "Led the transition from a jQuery-based legacy system to a modern React stack, significantly improving system performance and maintainability.",
-      "Collaborated with backend teams on PHP-based systems to optimize frontend architecture and ensure seamless integration.",
-      "Managed tasks via Jira in an agile environment and utilized GitLab for source control and CI/CD pipelines."
+      "Modernized legacy jQuery systems into scalable React/TypeScript applications.",
+      "Engineered reusable component libraries with Storybook and Tailwind CSS.",
+      "Ensured high performance and accessibility across enterprise-grade ERP modules.",
+      "Worked in an Agile environment using Jira and GitLab CI/CD pipelines."
     ],
     techStack: [
       "React", 
       "TypeScript", 
-      "jQuery",
-      "PHP",
-      "Tailwind CSS", 
-      "React Hook Form", 
       "Zustand", 
       "React Query", 
-      "Storybook", 
-      "Jira", 
-      "GitLab"
+      "Tailwind CSS",
+      "jQuery",
+      "PHP",
+      "Storybook",
+      "GitLab CI/CD",
+      "Jira"
     ],
     url: "https://www.teamsystem.com/",
     projects: [
       {
-        title: "Legacy Modernization",
-        description: "Migration of core business modules from jQuery to React/TypeScript.",
-        image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/50/68/325068a9-674b-b450-cb6c-0ed4790d1865/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.png"
+        title: "ERP Module Modernization",
+        description: "Re-architecting core accounting modules from legacy stacks to modern React applications.",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        title: "Enterprise Design System",
+        description: "Developing a unified UI library with Storybook to ensure visual consistency across all TeamSystem products.",
+        image: "https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&q=80&w=800"
       }
     ]
   },
@@ -47,46 +52,70 @@ export const EXPERIENCES: Experience[] = [
     id: "icharge",
     company: "iCharge.app",
     role: "Tech Lead",
-    period: "Nov 2023 – Aug 2025",
+    period: "",
     description: [
-      "Developed and maintained a full-stack EV charging platform for drivers and fleet operators across Albania.",
-      "Built user interfaces with React.js, React Admin, and Material-UI; integrated Stripe for secure payments.",
-      "Managed real-time charger communication using Node.js, Express.js, and WebSockets with Firebase Realtime Database.",
-      "Optimized power distribution with load balancing algorithms and utilized MongoDB, Firebase, and Redis.",
-      "Leveraged Google Cloud for scalable infrastructure and Cloudflare for security and CDN caching."
+      "Developed a full-stack EV charging platform for drivers and fleet operators across Albania.",
+      "Managed real-time charger communication using Node.js, Express.js, and WebSockets.",
+      "Integrated secure payment processing with Stripe.",
+      "Optimized power distribution with load balancing algorithms and utilized MongoDB, Firebase, and Redis."
     ],
     techStack: [
-      "React.js", 
       "Next.js", 
-      "React Admin",
-      "Material-UI",
+      "TypeScript", 
       "Node.js", 
       "Express.js",
       "Socket.io", 
-      "MongoDB", 
-      "Firebase", 
-      "Redis", 
+      "MongoDB",
+      "Redis",
       "GCP", 
-      "Docker", 
       "Stripe",
+      "Firebase",
       "Cloudflare"
     ],
     url: "https://icharge.app/",
     projects: [
       {
-        title: "EV Driver Portal",
+        title: "EV Portal",
         description: "Real-time charger discovery and payment gateway integration.",
         image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
+  },
+  {
+    id: "blitz",
+    company: "Blitz Carwash",
+    role: "Full Stack Developer & Mobile Lead",
+    period: "",
+    description: [
+      "Architected and developed a comprehensive management platform to monitor and control car washing machines in real-time.",
+      "Developed a cross-platform mobile application using Expo Go for staff to manage operations and machine status on-site.",
+      "Built a robust backend with Node.js and Express to handle machine telemetry and remote triggers.",
+      "Implemented a responsive React frontend for business analytics and machine state visualization."
+    ],
+    techStack: [
+      "React",
+      "React Native",
+      "Expo Go",
+      "Node.js",
+      "Express.js",
+      "Socket.io",
+      "PostgreSQL",
+      "REST API",
+      "Tailwind CSS",
+      "State Management",
+      "Real-time Monitoring"
+    ],
+    url: "https://blitzcarwash.al/",
+    projects: [
+      {
+        title: "Blitz Management Platform",
+        description: "Unified dashboard for machine control and operational monitoring.",
+        image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&q=80&w=800"
       },
       {
-        title: "Fleet Management",
-        description: "Admin panel for large scale EV fleet monitoring and load balancing.",
-        image: "https://images.unsplash.com/photo-1551288049-bbda38a5f971?auto=format&fit=crop&q=80&w=800"
-      },
-      {
-        title: "Real-time Monitoring",
-        description: "WebSocket-driven dashboard for live charger status updates.",
-        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&q=80&w=800"
+        title: "Staff Mobile App",
+        description: "Expo-based mobile solution for real-time on-field machine management.",
+        image: "https://images.unsplash.com/photo-1512428559087-560fa5ceab42?auto=format&fit=crop&q=80&w=800"
       }
     ]
   },
@@ -94,12 +123,12 @@ export const EXPERIENCES: Experience[] = [
     id: "magoware",
     company: "Magoware",
     role: "Frontend Developer",
-    period: "June 2021 – May 2023",
+    period: "",
     description: [
-      "Contributed to the development of IPTV and OTT solutions with a strong focus on frontend technologies.",
+      "Contributed to the development of IPTV and OTT solutions with a focus on modern frontend architectures.",
       "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).",
-      "Collaborated with backend teams using Node.js and NestJS framework.",
-      "Gained experience with infrastructure technologies like Redis, Firebase, and Google Cloud Platform (GCP)."
+      "Collaborated with backend teams using Node.js and NestJS frameworks.",
+      "Gained experience with cloud infrastructure on Google Cloud Platform (GCP)."
     ],
     techStack: [
       "React", 
@@ -110,14 +139,13 @@ export const EXPERIENCES: Experience[] = [
       "Firebase",
       "GCP",
       "Redis",
-      "Tailwind CSS", 
-      "React Query"
+      "IPTV/OTT Tech"
     ],
     url: "https://www.magoware.tv/",
     projects: [
       {
         title: "OTT Web Player",
-        description: "High-performance video player interface for web browsers.",
+        description: "Optimized video streaming interface for cross-browser compatibility.",
         image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&q=80&w=800"
       }
     ]
@@ -126,20 +154,49 @@ export const EXPERIENCES: Experience[] = [
 
 export const SKILLS: SkillCategory[] = [
   {
-    title: "Frontend",
-    skills: ["React", "Next.js", "TypeScript", "React Admin", "Material-UI (MUI)", "Tailwind CSS", "React Hook Form", "Zustand", "React Query", "jQuery", "Storybook"]
+    title: "Frontend & Mobile",
+    skills: [
+      "React (Hooks, Context)", 
+      "Next.js (App Router)", 
+      "React Native & Expo Go", 
+      "TypeScript", 
+      "Tailwind CSS", 
+      "Enterprise Design Systems",
+      "Zustand / Redux", 
+      "React Query", 
+      "Material-UI (MUI)", 
+      "Legacy Modernization (jQuery)"
+    ]
   },
   {
-    title: "Backend",
-    skills: ["Node.js", "Express.js", "NestJS", "PHP", "WebSockets (Socket.io)", "GraphQL", "RESTful APIs"]
+    title: "Backend & Systems",
+    skills: [
+      "Node.js & NestJS", 
+      "Express.js", 
+      "Socket.io (Real-time)", 
+      "OCPP 1.6/2.0 Integration", 
+      "Machine Telemetry & Control", 
+      "Stripe Payment Systems",
+      "PostgreSQL", 
+      "MongoDB", 
+      "Redis (Caching/Queues)", 
+      "PHP",
+      "REST & GraphQL"
+    ]
   },
   {
-    title: "Cloud & DevOps",
-    skills: ["Firebase", "Google Cloud (GCP)", "MongoDB", "Redis", "Cloudflare", "Docker", "GitLab", "Jira"]
-  },
-  {
-    title: "Specialized",
-    skills: ["Stripe Integration", "EV Charging (OCPP)", "IPTV/OTT Solutions", "Load Balancing", "Microservices"]
+    title: "Architecture & DevOps",
+    skills: [
+      "Load Balancing Algorithms",
+      "Power Distribution Optimization",
+      "Google Cloud (GCP)", 
+      "Firebase Realtime DB", 
+      "Docker & Containerization", 
+      "Cloudflare (CDN & Security)", 
+      "IPTV / OTT Architecture",
+      "GitLab CI/CD", 
+      "Jira / Agile"
+    ]
   }
 ];
 
@@ -157,8 +214,8 @@ export const EDUCATION: Education[] = [
 ];
 
 export const CERTIFICATIONS: Certification[] = [
+  { name: "OCPP 1.6/2.0 Integration Certification" },
   { name: "Microsoft Azure AZ-204 (Online)" },
   { name: "Microsoft Azure AZ-900 (Online)" },
-  { name: "TeamSystem Conference (Rimini, Italy, 2024)" },
-  { name: "TeamSystem Conference (Pesaro, Italy, 2023)" }
+  { name: "TeamSystem Conference (Rimini, Italy, 2024)" }
 ];

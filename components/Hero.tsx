@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
           className="flex-1 space-y-6 text-center md:text-left order-2 md:order-1"
         >
           <span className="text-zinc-500 font-medium tracking-widest text-sm uppercase">
-            Portfolio
+            Full Stack Developer
           </span>
           
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter text-white">
@@ -28,12 +28,12 @@ const Hero: React.FC = () => {
           </h1>
           
           <h2 className="text-xl md:text-2xl text-zinc-400 font-light">
-            {PERSONAL_INFO.title}
+            Building scalable digital experiences
           </h2>
 
           <p className="max-w-xl text-zinc-500 text-lg leading-relaxed mx-auto md:mx-0">
-            Specializing in scalable web architectures, modern React ecosystems, and cloud-native solutions. 
-            Currently transforming legacy systems and building next-gen platforms.
+            Specializing in modern React ecosystems, Node.js backends, and mobile development. 
+            Currently architecting real-time management platforms and high-performance cloud solutions.
           </p>
 
           <div className="flex gap-4 pt-4 justify-center md:justify-start">
@@ -81,11 +81,11 @@ const Hero: React.FC = () => {
         >
             <div className="relative w-72 h-80 md:w-[400px] md:h-[500px]">
                 <div className="absolute inset-0 bg-zinc-800/20 rounded-2xl rotate-3"></div>
-                <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/50">
+                <div className="relative w-full h-full rounded-2xl overflow-hidden border border-zinc-800 bg-zinc-900/50 shadow-2xl">
                     <img 
                         src="https://pub-e58096f55dfa45feb1077519be5e37e1.r2.dev/klajdi_image_croped.jpg" 
                         alt={PERSONAL_INFO.name} 
-                        className="w-full h-full object-cover opacity-90 hover:opacity-100 transition-opacity duration-500"
+                        className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                     />
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { EXPERIENCES } from '../constants';
-import { Building2, Calendar, ExternalLink } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { motion } from 'framer-motion';
 import ProjectCarousel from './ProjectCarousel';
 
@@ -13,10 +13,10 @@ const Experience: React.FC = () => {
         viewport={{ once: true }}
         className="text-3xl font-bold mb-16 text-white border-l-4 border-white pl-4"
       >
-        Work Experience
+        Featured Projects & Experience
       </motion.h2>
 
-      <div className="relative border-l border-zinc-800 ml-3 md:ml-6 space-y-16">
+      <div className="relative border-l border-zinc-800 ml-3 md:ml-6 space-y-20">
         {EXPERIENCES.map((job, index) => (
           <motion.div 
             key={job.id}
@@ -34,16 +34,12 @@ const Experience: React.FC = () => {
                 <h3 className="text-2xl font-semibold text-white group-hover:text-zinc-200 transition-colors flex items-center gap-3">
                   {job.company}
                   {job.url && (
-                    <a href={job.url} target="_blank" rel="noopener noreferrer" className="text-zinc-600 hover:text-white transition-colors">
+                    <a href={job.url} target="_blank" rel="noopener noreferrer" className="text-zinc-600 hover:text-white transition-colors" aria-label={`Link to ${job.company}`}>
                       <ExternalLink size={18} />
                     </a>
                   )}
                 </h3>
                 <p className="text-zinc-400 font-medium text-lg mt-1">{job.role}</p>
-              </div>
-              <div className="flex items-center text-zinc-500 text-sm mt-2 md:mt-0 font-mono bg-zinc-900/50 px-3 py-1 rounded border border-zinc-800">
-                <Calendar size={14} className="mr-2" />
-                {job.period}
               </div>
             </div>
 
@@ -61,7 +57,7 @@ const Experience: React.FC = () => {
               {job.techStack?.map((tech) => (
                 <span 
                   key={tech} 
-                  className="px-3 py-1 text-xs font-medium text-zinc-400 bg-zinc-900 border border-zinc-800 rounded-full"
+                  className="px-3 py-1 text-xs font-medium text-zinc-400 bg-zinc-900 border border-zinc-800 rounded-full hover:border-zinc-500 transition-colors"
                 >
                   {tech}
                 </span>
