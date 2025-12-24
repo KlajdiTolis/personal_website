@@ -7,7 +7,12 @@ export const PERSONAL_INFO = {
   phone: "+355 693350203",
   linkedin: "https://al.linkedin.com/in/klajdi-tolis-b2939b225",
   github: "https://github.com/KlajdiTolis",
-  location: "Tirana, Albania"
+  location: "Tirana, Albania",
+  languages: [
+    { name: "Albanian", level: "Native" },
+    { name: "English", level: "Fluent" },
+    { name: "Italian", level: "Basic" }
+  ]
 };
 
 export const EXPERIENCES: Experience[] = [
