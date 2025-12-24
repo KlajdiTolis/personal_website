@@ -24,12 +24,13 @@ export const EXPERIENCES: Experience[] = [
     techStack: [
       "React", 
       "TypeScript", 
-      "React Context API", 
-      "Zustand", 
+      "jQuery",
+      "PHP",
       "Tailwind CSS", 
       "React Hook Form", 
-      "Storybook", 
+      "Zustand", 
       "React Query", 
+      "Storybook", 
       "Jira", 
       "GitLab"
     ],
@@ -38,7 +39,12 @@ export const EXPERIENCES: Experience[] = [
       {
         title: "Legacy Modernization",
         description: "Migration of core business modules from jQuery to React/TypeScript.",
-        image: "https://play-lh.googleusercontent.com/cp8mL1EueqVMqkEt1FW49AQ1A7r5CbnnIk6_bQdEKf2AgswbswxRG7MXZrvX5RRcog"
+        image: "https://images.unsplash.com/photo-1551288049-bbda38a5f971?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        title: "Internal Dashboard",
+        description: "Development of a unified dashboard for internal operations tracking.",
+        image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=800"
       }
     ]
   },
@@ -57,11 +63,13 @@ export const EXPERIENCES: Experience[] = [
     techStack: [
       "React.js", 
       "Next.js", 
-      "TypeScript", 
+      "React Admin",
+      "Material-UI",
       "Node.js", 
+      "Express.js",
       "Socket.io", 
       "MongoDB", 
-      "Firebase RealTimeDB", 
+      "Firebase", 
       "Redis", 
       "GCP", 
       "Docker", 
@@ -78,7 +86,7 @@ export const EXPERIENCES: Experience[] = [
       {
         title: "Fleet Management",
         description: "Admin panel for large scale EV fleet monitoring and load balancing.",
-        image: "https://cdn.prod.website-files.com/69078eea6f03503263d3efd5/690b2deeb9bff902eb6a1869_relume-522309.png"
+        image: "https://images.unsplash.com/photo-1551288049-bbda38a5f971?auto=format&fit=crop&q=80&w=800"
       },
       {
         title: "Real-time Monitoring",
@@ -94,20 +102,20 @@ export const EXPERIENCES: Experience[] = [
     period: "June 2021 – May 2023",
     description: [
       "Contributed to the development of IPTV and OTT solutions with a strong focus on frontend technologies.",
-      "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).", 
+      "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).",
       "Collaborated with backend teams using Node.js and NestJS framework.",
       "Gained experience with infrastructure technologies like Redis, Firebase, and Google Cloud Platform (GCP)."
     ],
     techStack: [
       "React", 
+      "React Admin",
       "MUI", 
-      "IPTV/OTT", 
+      "Node.js",
       "NestJS", 
-      "React Context API", 
-      "Zustand", 
+      "Firebase",
+      "GCP",
+      "Redis",
       "Tailwind CSS", 
-      "React Hook Form", 
-      "Storybook", 
       "React Query"
     ],
     url: "https://www.magoware.tv/",
@@ -115,7 +123,7 @@ export const EXPERIENCES: Experience[] = [
       {
         title: "OTT Web Player",
         description: "High-performance video player interface for web browsers.",
-        image: "https://static.wixstatic.com/media/e18fa1_34e98278eeea4420a0d6fa4be496ed9a~mv2.png/v1/fill/w_587,h_528,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/home4.png"
+        image: "https://images.unsplash.com/photo-1522869635100-9f4c5e86aa37?auto=format&fit=crop&q=80&w=800"
       }
     ]
   }
@@ -124,15 +132,19 @@ export const EXPERIENCES: Experience[] = [
 export const SKILLS: SkillCategory[] = [
   {
     title: "Frontend",
-    skills: ["React", "Next.js", "React Native (Expo)", "TypeScript", "Redux", "Zustand", "React Query", "Material-UI", "Shadcn", "Figma", "Chart.js"]
+    skills: ["React", "Next.js", "TypeScript", "React Admin", "Material-UI (MUI)", "Tailwind CSS", "React Hook Form", "Zustand", "React Query", "jQuery", "Storybook"]
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "NestJS", "WebSocket", "GraphQL", "RESTful APIs"]
+    skills: ["Node.js", "Express.js", "NestJS", "PHP", "WebSockets (Socket.io)", "GraphQL", "RESTful APIs"]
   },
   {
-    title: "Cloud & Database",
-    skills: ["Firebase (Firestore, Auth, Functions)", "Google Cloud Platform (GCP)", "MongoDB", "Redis", "Cloudflare"]
+    title: "Cloud & DevOps",
+    skills: ["Firebase", "Google Cloud (GCP)", "MongoDB", "Redis", "Cloudflare", "Docker", "GitLab", "Jira"]
+  },
+  {
+    title: "Specialized",
+    skills: ["Stripe Integration", "EV Charging (OCPP)", "IPTV/OTT Solutions", "Load Balancing", "Microservices"]
   }
 ];
 
