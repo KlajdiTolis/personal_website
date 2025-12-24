@@ -38,7 +38,7 @@ export const EXPERIENCES: Experience[] = [
       {
         title: "Legacy Modernization",
         description: "Migration of core business modules from jQuery to React/TypeScript.",
-        image: "https://play-lh.googleusercontent.com/cp8mL1EueqVMqkEt1FW49AQ1A7r5CbnnIk6_bQdEKf2AgswbswxRG7MXZrvX5RRcog"
+        image: "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/50/68/325068a9-674b-b450-cb6c-0ed4790d1865/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/1200x630wa.png"
       }
     ]
   },
