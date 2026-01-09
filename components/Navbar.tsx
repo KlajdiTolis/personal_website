@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
         </div>
         
         <a 
-          href="mailto:klajdi.tolis08@gmail.com"
+          href="mailto:info@tolis.al"
           className="text-sm font-semibold text-white border border-zinc-800 px-4 py-2 rounded-full hover:bg-white hover:text-black transition-all"
         >
           Contact

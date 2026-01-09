@@ -3,7 +3,7 @@ import { Experience, SkillCategory, Education, Certification } from './types';
 export const PERSONAL_INFO = {
   name: "Klajdi Tolis",
   title: "Full Stack Developer",
-  email: "klajdi.tolis08@gmail.com",
+  email: "info@tolis.al",
   phone: "+355 693350203",
   linkedin: "https://al.linkedin.com/in/klajdi-tolis-b2939b225",
   github: "https://github.com/KlajdiTolis",
@@ -20,7 +20,7 @@ export const EXPERIENCES: Experience[] = [
     id: "teamsystem",
     company: "TeamSystem",
     role: "Frontend Developer",
-    period: "",
+    period: "May 2023 - Present",
     description: [
       "Modernized legacy jQuery systems into scalable React/TypeScript applications.",
       "Engineered reusable component libraries with Storybook and Tailwind CSS.",
@@ -57,7 +57,7 @@ export const EXPERIENCES: Experience[] = [
     id: "icharge",
     company: "iCharge.app",
     role: "Tech Lead",
-    period: "",
+    period: "Nov 2023 - Aug 2025",
     description: [
       "Developed a full-stack EV charging platform for drivers and fleet operators across Albania.",
       "Managed real-time charger communication using Node.js, Express.js, and WebSockets.",
@@ -87,10 +87,48 @@ export const EXPERIENCES: Experience[] = [
     ]
   },
   {
+    id: "applay",
+    company: "APPlay",
+    role: "Full Stack Developer",
+    period: "Aug 2023 - Present",
+    description: [
+      "Developed and maintained a cross-platform smart TV application supporting LG webOS, Android TV, and Samsung Tizen platforms.",
+      "Built responsive TV interfaces using SolidJS optimized for large-screen experiences.",
+      "Developed admin dashboard and content management features using React Admin, React.js, TanStack Query and shadcn/ui.",
+      "Created Node.js backend services to handle TV-specific APIs, content delivery, and user authentication.",
+      "Optimized application performance for resource-constrained TV environments and managed real-time state synchronization."
+    ],
+    techStack: [
+      "SolidJS",
+      "React",
+      "React Admin",
+      "TanStack Query",
+      "shadcn/ui",
+      "Node.js",
+      "webOS",
+      "Tizen",
+      "Android TV",
+      "IPTV/OTT"
+    ],
+    url: "https://applay.cloud/",
+    projects: [
+      {
+        title: "Cross-Platform TV App",
+        description: "Unified media streaming application for webOS, Tizen, and Android TV ecosystems.",
+        image: "https://images.unsplash.com/photo-1593784991095-a205069470b6?auto=format&fit=crop&q=80&w=800"
+      },
+      {
+        title: "Content Management Hub",
+        description: "Scalable admin dashboard for real-time content operations and user management.",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
+      }
+    ]
+  },
+  {
     id: "blitz",
     company: "Blitz Carwash",
     role: "Full Stack Developer & Mobile Lead",
-    period: "",
+    period: "2022 - 2023",
     description: [
       "Architected and developed a comprehensive management platform to monitor and control car washing machines in real-time.",
       "Developed a cross-platform mobile application using Expo Go for staff to manage operations and machine status on-site.",
@@ -128,7 +166,7 @@ export const EXPERIENCES: Experience[] = [
     id: "magoware",
     company: "Magoware",
     role: "Frontend Developer",
-    period: "",
+    period: "June 2021 - May 2023",
     description: [
       "Contributed to the development of IPTV and OTT solutions with a focus on modern frontend architectures.",
       "Built responsive user interfaces using React, React Admin, and Material-UI (MUI).",
@@ -161,43 +199,69 @@ export const SKILLS: SkillCategory[] = [
   {
     title: "Frontend & Mobile",
     skills: [
-      "React (Hooks, Context)", 
-      "Next.js (App Router)", 
-      "React Native & Expo Go", 
+      "React", 
+      "Next.js",
+      "Redux",
+      "SolidJS",
+      "Android TV",
+      "webOS",
+      "Tizen",
+      "React Native",
+      "Expo",
       "TypeScript", 
-      "Tailwind CSS", 
-      "Enterprise Design Systems",
-      "Zustand / Redux", 
-      "React Query", 
-      "Material-UI (MUI)", 
-      "Legacy Modernization (jQuery)"
+      "Tailwind CSS",
+      "Shadcn",
+      "Zustand",
+      "TanStack Query", 
+      "React Admin",
+      "MUI",
+      "React Router",
+      "React DnD",
+      "Chart.js",
+      "Figma"
     ]
   },
   {
     title: "Backend & Systems",
     skills: [
-      "Node.js & NestJS", 
+      "Node.js",
+      "NestJS", 
       "Express.js", 
-      "Socket.io (Real-time)", 
+      "Socket.io", 
       "OCPP 1.6/2.0 Integration", 
       "Machine Telemetry & Control", 
-      "Stripe Payment Systems",
+      "Stripe Payments",
       "PostgreSQL", 
       "MongoDB", 
-      "Redis (Caching/Queues)", 
+      "Redis", 
       "PHP",
       "REST & GraphQL"
     ]
   },
   {
+    title: "AI & Productivity",
+    skills: [
+      "Cursor",
+      "ChatGPT",
+      "Google AI Studio",
+      "Claude",
+      "Gemini API",
+      "Midjourney",
+      "Vercel V0",
+      "GitHub Copilot",
+      "DeepSeek",
+      "AI Prompt Engineering"
+    ]
+  },
+  {
     title: "Architecture & DevOps",
     skills: [
-      "Load Balancing Algorithms",
-      "Power Distribution Optimization",
+      "Load Balancing",
+      "Power Distribution",
       "Google Cloud (GCP)", 
       "Firebase Realtime DB", 
-      "Docker & Containerization", 
-      "Cloudflare (CDN & Security)", 
+      "Docker", 
+      "Cloudflare", 
       "IPTV / OTT Architecture",
       "GitLab CI/CD", 
       "Jira / Agile"
@@ -219,8 +283,11 @@ export const EDUCATION: Education[] = [
 ];
 
 export const CERTIFICATIONS: Certification[] = [
+  { name: "TeamSystem Conference (Milano, Italy, 2025)" },
+  { name: "2nd Place - TeamSystem Hackathon (Rimini, Italy)" },
   { name: "OCPP 1.6/2.0 Integration Certification" },
   { name: "Microsoft Azure AZ-204 (Online)" },
   { name: "Microsoft Azure AZ-900 (Online)" },
-  { name: "TeamSystem Conference (Rimini, Italy, 2024)" }
+  { name: "TeamSystem Conference (Rimini, Italy, 2024)" },
+  { name: "TeamSystem Conference (Pesaro, Italy, 2023)" }
 ];
